@@ -1,0 +1,40 @@
+.svgm{
+    
+    animation: hreyfing2 5s infinite ease-in-out;
+    color: blue;
+    transition-duration: 2s;
+    
+}
+
+
+
+
+
+@keyframes hreyfing2{
+    from{
+        transform: translate(1px,1px);
+    }
+    5%{
+        transform: translate(160px,1px)
+    }
+
+    15%{   
+        transform:translate(20px, 100px);
+    }
+
+    25%{
+        transform:translate(90px, 10px);
+    }
+
+    50%{
+        transform:translate(30px, 30px);
+    }
+
+    75%{
+        transform:translate(76px, 12px);
+    }
+
+    to{
+        transform: translate(1px, 1px);
+    }
+}
