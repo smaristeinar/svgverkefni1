@@ -1,11 +1,16 @@
-.svgm{
-    
+.svgm{  
     animation: hreyfing2 5s infinite ease-in-out;
-    color: blue;
-    transition-duration: 2s;
-    
+    }
+
+#geimvera{
+    opacity: 1;
+    transition-duration: 1s;
 }
 
+#sprengja{
+    opacity:0;
+    transition-duration: 2s;
+}
 
 
 
